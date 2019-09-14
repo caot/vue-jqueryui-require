@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Datepicker - Default functionality</title>
+  <script data-main="vue-jqueryui-require.js" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+</head>
+<body>
+
+<a href="https://vuejsdevelopers.com/2017/05/20/vue-js-safely-jquery-plugin/">reference: How To (Safely) Use A jQuery Plugin With Vue.js</a>
+
+<p>Demo date-picker</p>
+
+<div id="app">
+  <date-picker @update-date="updateDate" date-format="yy-mm-dd" v-once></date-picker>
+  <p>{{ date }}</p>
+
+</div>
+</body>
+</html>
